@@ -1,0 +1,20 @@
+{{#Info}}
+{{> (i18n '@header-info') }}
+{{/Info}}
+
+{{ AnomalyClassBar
+    itemNumber=itemNumber
+    clearance=3
+    containerClass='safe'
+    secondaryClass='none'
+    disruptionClass='dark'
+    riskClass='notice' }}
+
+{{ ACSAnimation }}
+
+{{ AdvancedInformationMethodology
+    blocks='bottom'
+    site=site
+    dir=siteDirector
+    head=siteHead
+    mtf=itemMtf }}

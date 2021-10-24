@@ -1,0 +1,26 @@
+{
+  "name": "@scp-wiki-article-builder/starter",
+  "version": "1.0.0",
+  "description": "A starter kit to quickly create an scp-wiki-article-builder project.",
+  "author": "422404",
+  "license": "CC BY-SA 3.0",
+  "type": "module",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "build": "npm run build:en",
+    "build:en": "build-article ./build.config.js",
+    "build:fr": "build-article ./build.config.fr.js"
+  },
+  "keywords": [
+    "handlebars",
+    "scp-foundation",
+    "wikidot",
+    "scp-wiki",
+    "scp"
+  ],
+  "dependencies": {
+    "@scp-wiki-article-builder/engine": "^1.0.0",
+    "@scp-wiki-article-builder/components": "^1.0.0"
+  }
+}
