@@ -23,6 +23,17 @@ const __dirname = new URL('.', import.meta.url).pathname;
  */
 export default {
     /**
+     * The wiki name.
+     * Example: scp-wiki, scp-sandbox-3
+     */
+    wikiName: 'scp-sandbox-3',
+
+    /**
+     * The wiki page name.
+     */
+    pageName: 'testauthor',
+
+    /**
      * The main file of the project.
      */
     entry: path.resolve(__dirname, 'src/article.handlebars'),

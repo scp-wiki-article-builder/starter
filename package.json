@@ -1,6 +1,6 @@
 {
   "name": "@scp-wiki-article-builder/starter",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A starter kit to quickly create an scp-wiki-article-builder project.",
   "author": "422404",
   "license": "CC BY-SA 3.0",
@@ -20,7 +20,7 @@
     "scp"
   ],
   "dependencies": {
-    "@scp-wiki-article-builder/engine": "^1.1.0",
-    "@scp-wiki-article-builder/components": "^1.1.0"
+    "@scp-wiki-article-builder/engine": "^1.2.0",
+    "@scp-wiki-article-builder/components": "^1.2.0"
   }
 }
